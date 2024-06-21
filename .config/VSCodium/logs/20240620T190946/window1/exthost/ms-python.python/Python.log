@@ -1,0 +1,23 @@
+2024-06-20 19:09:54.391 [info] Telemetry level is off
+2024-06-20 19:09:54.391 [info] Experiments are disabled, only manually opted experiments are active.
+2024-06-20 19:09:54.391 [info] Default formatter is set to null for workspace /home/shuvam/Information_Retrieval
+2024-06-20 19:09:54.391 [info] Test server listening.
+2024-06-20 19:09:54.391 [info] > conda info --json
+2024-06-20 19:09:54.391 [info] Python interpreter path: /bin/python
+2024-06-20 19:09:54.391 [info] > pyenv which python
+2024-06-20 19:09:54.391 [info] cwd: .
+2024-06-20 19:09:54.397 [info] > ~/.conda/bin/conda info --json
+2024-06-20 19:09:54.417 [info] > ./LLMS/text-generation-webui-main/installer_files/conda/bin/conda info --json
+2024-06-20 19:09:54.427 [info] > ./LLMS/text-generation-webui-main/installer_files/env/bin/conda info --json
+2024-06-20 19:09:55.468 [info] Starting Jedi language server for Information_Retrieval.
+2024-06-20 19:11:40.057 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py
+2024-06-20 19:11:49.343 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py
+2024-06-20 19:11:59.860 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py
+2024-06-20 19:12:01.639 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py
+2024-06-20 19:12:06.084 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py
+2024-06-20 19:12:51.532 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py
+2024-06-20 19:13:58.616 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py
+2024-06-20 19:16:46.794 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py
+2024-06-20 19:16:49.571 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py
+2024-06-20 19:19:11.353 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py
+2024-06-20 19:19:15.520 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_rank_indexing_approach.py

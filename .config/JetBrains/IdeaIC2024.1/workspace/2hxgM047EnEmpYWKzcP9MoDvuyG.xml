@@ -1,0 +1,270 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Trec_tot_neo" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="38ahfbi3elax3" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/iiser/Trec_tot_neo/Main.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="108">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="432">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "JAVA": {
+      "usageCount": 2,
+      "lastUsed": 1718542924076
+    },
+    "XML": {
+      "usageCount": 2,
+      "lastUsed": 1718542923662
+    }
+  }
+}]]></component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="LOCAL" type="ae103dac:GitBranchType" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="2" lastUsage="1718542924076" />
+    </language>
+    <language id="XML">
+      <summary usageCount="2" lastUsage="1718542923666" />
+    </language>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Trec_tot_neo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trec_tot_neo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/.idea}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trec_tot_neo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trec_tot_neo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/src/main}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trec_tot_neo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/src/main/java}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trec_tot_neo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/shuvam/Information_Retrieval/Trec_tot_neo/src/main/java/org/iiser/Trec_tot_neo}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local">
+        <shellCommand>
+          <arg value="/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+      <TerminalTabState tabName="zsh">
+        <shellCommand>
+          <arg value="/usr/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+    <option name="mySelectedTabIndex" value="1" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16165611" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.34596458" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.34570312" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.34596458" left="0.16165611" />
+    </layoutV2>
+    <recentWindows>
+      <value>Terminal</value>
+      <value>Project</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="130" key="#Project_Structure" timestamp="1718541182443">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="130" width="1024" height="819" key="#Project_Structure.ideScale=110" timestamp="1718543540521">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="130" width="1024" height="819" key="#Project_Structure.ideScale=110/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1718543540521" />
+    <state x="2239" y="0" key="#Project_Structure.ideScale=110/0.0.1920.1080/1920.0.1366.768@1920.0.1366.768" timestamp="1718542201588" />
+    <state x="448" y="130" key="#Project_Structure/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1718541182443" />
+    <state x="940" y="62" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog.ideScale=110" timestamp="1718542742653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="940" y="62" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog.ideScale=110/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1718542742653" />
+    <state x="2589" y="44" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog.ideScale=110/0.0.1920.1080/1920.0.1366.768@1920.0.1366.768" timestamp="1718542024759" />
+    <state x="748" y="310" key="FileChooserDialogImpl.ideScale=110" timestamp="1718543456687">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="310" key="FileChooserDialogImpl.ideScale=110/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1718543456687" />
+    <state x="2452" y="220" key="FileChooserDialogImpl.ideScale=110/0.0.1920.1080/1920.0.1366.768@1920.0.1366.768" timestamp="1718542164129" />
+    <state width="1284" height="223" key="GridCell.Tab.0.bottom.ideScale=110" timestamp="1718541930087">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state width="1284" height="223" key="GridCell.Tab.0.bottom.ideScale=110/0.0.1920.1080/1920.0.1366.768@1920.0.1366.768" timestamp="1718541930087" />
+    <state width="1284" height="223" key="GridCell.Tab.0.center.ideScale=110" timestamp="1718541930085">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state width="1284" height="223" key="GridCell.Tab.0.center.ideScale=110/0.0.1920.1080/1920.0.1366.768@1920.0.1366.768" timestamp="1718541930085" />
+    <state width="1284" height="223" key="GridCell.Tab.0.left.ideScale=110" timestamp="1718541930082">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state width="1284" height="223" key="GridCell.Tab.0.left.ideScale=110/0.0.1920.1080/1920.0.1366.768@1920.0.1366.768" timestamp="1718541930082" />
+    <state width="1284" height="223" key="GridCell.Tab.0.right.ideScale=110" timestamp="1718541930086">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state width="1284" height="223" key="GridCell.Tab.0.right.ideScale=110/0.0.1920.1080/1920.0.1366.768@1920.0.1366.768" timestamp="1718541930086" />
+    <state x="226" y="15" key="SettingsEditor.ideScale=110" timestamp="1718541539372">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="226" y="15" key="SettingsEditor.ideScale=110/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1718541539372" />
+    <state x="560" y="197" width="800" height="728" key="new project wizard.ideScale=110" timestamp="1718543807099">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="197" width="800" height="728" key="new project wizard.ideScale=110/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1718543807099" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/iiser/Trec_tot_neo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lucene-analysis-common-9.10.0</last-edited>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>21</last-edited>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Trec_tot_neo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>modules</last-edited>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

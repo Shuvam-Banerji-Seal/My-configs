@@ -1,0 +1,10 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Information_Retrieval/TREC_ToT_NEO" value="true" />
+        <entry key="$USER_HOME$/Information_Retrieval/Trec_tot_neo" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

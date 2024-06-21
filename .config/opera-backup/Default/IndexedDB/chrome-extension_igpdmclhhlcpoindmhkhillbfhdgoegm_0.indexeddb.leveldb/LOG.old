@@ -1,0 +1,25 @@
+2024/06/21-16:07:51.682 225db Reusing MANIFEST /home/shuvam/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/21-16:07:51.682 225db Recovering log #208
+2024/06/21-16:07:51.682 225db Reusing old log /home/shuvam/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/000208.log 
+2024/06/21-16:07:51.684 225db Delete type=2 #206
+2024/06/21-16:07:51.689 225ad Level-0 table #213: started
+2024/06/21-16:07:51.689 225ad Level-0 table #213: 1216 bytes OK
+2024/06/21-16:07:51.690 225ad Delete type=0 #208
+2024/06/21-16:07:51.690 225ad Manual compaction at level-0 from '\x00>\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at '\x00>\x00\x00\x05' @ 5165 : 1
+2024/06/21-16:07:51.690 225ad Compacting 1@0 + 1@1 files
+2024/06/21-16:07:51.690 225ad Generated table #214@0: 310 keys, 5769 bytes
+2024/06/21-16:07:51.690 225ad Compacted 1@0 + 1@1 files => 5769 bytes
+2024/06/21-16:07:51.690 225ad compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/21-16:07:51.691 225ad Delete type=2 #213
+2024/06/21-16:07:51.691 225ad Manual compaction at level-0 from '\x00>\x00\x00\x05' @ 5165 : 1 .. '\x00?\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/21-16:07:59.990 22693 Level-0 table #216: started
+2024/06/21-16:07:59.990 22693 Level-0 table #216: 6170 bytes OK
+2024/06/21-16:07:59.990 22693 Delete type=2 #210
+2024/06/21-16:07:59.990 22693 Delete type=0 #212
+2024/06/21-16:07:59.990 225ad Manual compaction at level-0 from '\x00?\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at '\x00?\x00\x00\x05' @ 5268 : 1
+2024/06/21-16:07:59.991 225ad Compacting 1@0 + 1@1 files
+2024/06/21-16:07:59.991 225ad Generated table #217@0: 310 keys, 5774 bytes
+2024/06/21-16:07:59.991 225ad Compacted 1@0 + 1@1 files => 5774 bytes
+2024/06/21-16:07:59.991 225ad compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/21-16:07:59.991 225ad Delete type=2 #216
+2024/06/21-16:07:59.992 225ad Manual compaction at level-0 from '\x00?\x00\x00\x05' @ 5268 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at (end)

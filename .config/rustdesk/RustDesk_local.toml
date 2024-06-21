@@ -1,0 +1,16 @@
+remote_id = ''
+kb_layout_type = ''
+size = [
+    0,
+    0,
+    0,
+    0,
+]
+fav = []
+
+[options]
+wayland-restore-token = '9cb624fe-0238-4f9e-ad60-2cd58b92c1a3'
+
+[ui_flutter]
+peer-sorting = 'Remote ID'
+wm_Main = '{"width":941.0,"height":1016.0,"offsetWidth":0.0,"offsetHeight":0.0,"isMaximized":true,"isFullscreen":false}'

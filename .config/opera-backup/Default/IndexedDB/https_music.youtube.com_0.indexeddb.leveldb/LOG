@@ -1,0 +1,10 @@
+2024/06/19-18:42:58.376 96e Reusing MANIFEST /home/shuvam/.config/opera/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/19-18:42:58.376 96e Recovering log #16
+2024/06/19-18:42:58.382 96e Reusing old log /home/shuvam/.config/opera/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000016.log 
+2024/06/19-18:43:21.303 970 Level-0 table #21: started
+2024/06/19-18:43:21.316 970 Level-0 table #21: 1136952 bytes OK
+2024/06/19-18:43:21.318 970 Delete type=0 #16
+2024/06/19-18:45:05.879 97d Compacting 1@1 + 1@2 files
+2024/06/19-18:45:05.882 97d Generated table #22@1: 932 keys, 44389 bytes
+2024/06/19-18:45:05.883 97d Compacted 1@1 + 1@2 files => 44389 bytes
+2024/06/19-18:45:05.883 97d compacted to: files[ 0 0 1 0 0 0 0 ]

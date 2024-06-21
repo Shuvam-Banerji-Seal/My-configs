@@ -1,0 +1,13 @@
+2024/06/08-01:34:15.290 e66 Reusing MANIFEST /home/shuvam/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/08-01:34:15.290 e66 Recovering log #42
+2024/06/08-01:34:15.290 e66 Reusing old log /home/shuvam/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/000042.log 
+2024/06/08-01:34:15.301 e73 Level-0 table #47: started
+2024/06/08-01:34:15.301 e73 Level-0 table #47: 5545 bytes OK
+2024/06/08-01:34:15.301 e73 Delete type=0 #42
+2024/06/08-01:34:15.301 e71 Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 1418 : 1
+2024/06/08-01:34:15.301 e71 Compacting 1@0 + 1@1 files
+2024/06/08-01:34:15.302 e71 Generated table #48@0: 240 keys, 5484 bytes
+2024/06/08-01:34:15.302 e71 Compacted 1@0 + 1@1 files => 5484 bytes
+2024/06/08-01:34:15.302 e71 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/08-01:34:15.302 e71 Delete type=2 #47
+2024/06/08-01:34:15.302 e73 Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 1418 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)

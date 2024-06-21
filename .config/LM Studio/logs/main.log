@@ -1,0 +1,66 @@
+[2024-06-17 21:33:10.789] [info]  App starting...
+[2024-06-17 21:33:11.216] [info]  Extension backends directory does not yet exist, creating at /home/shuvam/.cache/lm-studio/extensions/backends
+[2024-06-17 21:33:11.763] [info]  Creating config map file at /home/shuvam/.cache/lm-studio/config-presets/config.map.json
+[2024-06-17 21:33:11.770] [info]  Downloads folder from settings.json: /home/shuvam/.cache/lm-studio/models/
+[2024-06-17 21:33:11.772] [error] Not able to resolve models directory from settings.json. Got: 'Error: ENOENT: no such file or directory, stat '/home/shuvam/.cache/lm-studio/models/''. Fallback to default downloads folder.
+[2024-06-17 21:33:11.772] [info]  Default models folder doesn't exist. Creating it at /home/shuvam/.cache/lm-studio/models/
+[2024-06-17 21:33:11.922] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models/
+[2024-06-17 21:33:12.975] [info]  Checking if LM Studio dev tools exist on the system...
+[2024-06-17 21:33:12.989] [info]  LM Studio dev tools are not present, copying them over to .cache/lm-studio/bin...
+[2024-06-17 21:33:13.324] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2024-06-17 21:33:13.325] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2024-06-17 21:33:13.326] [info]  [AppUpdater] Fetching version info from https://versions.lmstudio.ai
+[2024-06-17 21:33:13.404] [info]  First model catalog download.
+[2024-06-17 21:33:13.420] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models/
+[2024-06-17 21:33:13.621] [info]  Downloaded model catalog from https://raw.githubusercontent.com/lmstudio-ai/model-catalog/main/catalog.json.
+[2024-06-17 21:33:13.622] [info]  Loaded existing catalog: Contains 0 models.
+[2024-06-17 21:33:13.623] [info]  Replaced catalog.
+[2024-06-17 21:33:13.624] [error] No callback defined for new catalog.
+[2024-06-17 21:33:13.932] [info]  Last model catalog download was 528ms ago. Skipping.
+[2024-06-17 21:33:14.330] [info]  AppUpdater state changed to idle
+[2024-06-17 21:33:41.863] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models/
+[2024-06-17 21:34:10.329] [info]  Last model catalog download was 56925ms ago. Downloading.
+[2024-06-17 21:34:10.480] [info]  Downloaded model catalog from https://raw.githubusercontent.com/lmstudio-ai/model-catalog/main/catalog.json.
+[2024-06-17 21:34:10.481] [info]  Loaded existing catalog: Contains 16 models.
+[2024-06-17 21:34:10.482] [info]  Catalog is unchanged. Not replacing.
+[2024-06-17 21:34:13.902] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models/
+[2024-06-17 21:34:17.101] [info]  Last model catalog download was 6771ms ago. Skipping.
+[2024-06-17 21:34:33.931] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models/
+[2024-06-17 22:34:17.278] [info]  Last model catalog download was 3606943ms ago. Downloading.
+[2024-06-17 22:34:17.777] [info]  Downloaded model catalog from https://raw.githubusercontent.com/lmstudio-ai/model-catalog/main/catalog.json.
+[2024-06-17 22:34:17.779] [info]  Loaded existing catalog: Contains 16 models.
+[2024-06-17 22:34:17.790] [info]  Catalog is unchanged. Not replacing.
+[2024-06-18 19:04:32.461] [info]  App starting...
+[2024-06-18 19:04:33.537] [info]  Downloads folder from settings.json: /home/shuvam/.cache/lm-studio/models/
+[2024-06-18 19:04:33.696] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models
+[2024-06-18 19:04:34.748] [info]  Checking if LM Studio dev tools exist on the system...
+[2024-06-18 19:04:34.767] [info]  LM Studio dev tools are not present, copying them over to .cache/lm-studio/bin...
+[2024-06-18 19:04:35.121] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2024-06-18 19:04:35.122] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2024-06-18 19:04:35.122] [info]  [AppUpdater] Fetching version info from https://versions.lmstudio.ai
+[2024-06-18 19:04:35.207] [info]  First model catalog download.
+[2024-06-18 19:04:35.220] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models
+[2024-06-18 19:04:35.579] [info]  Last model catalog download was 371ms ago. Skipping.
+[2024-06-18 19:04:35.718] [info]  Downloaded model catalog from https://raw.githubusercontent.com/lmstudio-ai/model-catalog/main/catalog.json.
+[2024-06-18 19:04:35.719] [info]  Loaded existing catalog: Contains 16 models.
+[2024-06-18 19:04:35.720] [info]  Catalog is unchanged. Not replacing.
+[2024-06-18 19:04:45.215] [error] Error fetching updates: fetch failed
+[2024-06-18 19:04:45.217] [info]  AppUpdater state changed to idle
+[2024-06-18 19:05:10.826] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models
+[2024-06-19 16:15:05.719] [info]  App starting...
+[2024-06-19 16:15:06.885] [info]  Downloads folder from settings.json: /home/shuvam/.cache/lm-studio/models
+[2024-06-19 16:15:07.077] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models
+[2024-06-19 16:15:08.140] [info]  Checking if LM Studio dev tools exist on the system...
+[2024-06-19 16:15:08.170] [info]  LM Studio dev tools are not present, copying them over to .cache/lm-studio/bin...
+[2024-06-19 16:15:08.863] [info]  [AppUpdater] Checking for updates... (current state: idle)
+[2024-06-19 16:15:08.864] [info]  AppUpdater state changed to checking-for-updates-periodic
+[2024-06-19 16:15:08.865] [info]  [AppUpdater] Fetching version info from https://versions.lmstudio.ai
+[2024-06-19 16:15:08.928] [info]  First model catalog download.
+[2024-06-19 16:15:08.942] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models
+[2024-06-19 16:15:09.303] [info]  Last model catalog download was 375ms ago. Skipping.
+[2024-06-19 16:15:09.379] [info]  Downloaded model catalog from https://raw.githubusercontent.com/lmstudio-ai/model-catalog/main/catalog.json.
+[2024-06-19 16:15:09.380] [info]  Loaded existing catalog: Contains 16 models.
+[2024-06-19 16:15:09.381] [info]  Catalog is unchanged. Not replacing.
+[2024-06-19 16:15:18.937] [error] Error fetching updates: fetch failed
+[2024-06-19 16:15:18.938] [info]  AppUpdater state changed to idle
+[2024-06-19 16:15:24.694] [info]  Current downloads folder: /home/shuvam/.cache/lm-studio/models

@@ -1,0 +1,30 @@
+2024/06/21-16:07:51.769 225ad Reusing MANIFEST /home/shuvam/.config/opera/Default/Local Extension Settings/kccohkcpppjjkkjppopfnflnebibpida/MANIFEST-000001
+2024/06/21-16:07:51.770 225ad Recovering log #125
+2024/06/21-16:07:51.770 225ad Reusing old log /home/shuvam/.config/opera/Default/Local Extension Settings/kccohkcpppjjkkjppopfnflnebibpida/000125.log 
+2024/06/21-16:07:56.361 225da Level-0 table #129: started
+2024/06/21-16:07:56.371 225da Level-0 table #129: 4223475 bytes OK
+2024/06/21-16:07:56.372 225da Delete type=0 #125
+2024/06/21-16:08:54.580 225f4 Level-0 table #131: started
+2024/06/21-16:08:54.629 225f4 Level-0 table #131: 8402790 bytes OK
+2024/06/21-16:08:54.630 225f4 Delete type=0 #128
+2024/06/21-16:08:54.631 225f4 Compacting 4@0 + 3@1 files
+2024/06/21-16:08:54.639 225f4 Generated table #132@0: 4 keys, 2465951 bytes
+2024/06/21-16:08:54.651 225f4 Generated table #133@0: 7 keys, 2592203 bytes
+2024/06/21-16:08:54.659 225f4 Generated table #134@0: 2 keys, 2199682 bytes
+2024/06/21-16:08:54.715 225f4 Generated table #135@0: 2 keys, 4343829 bytes
+2024/06/21-16:08:54.724 225f4 Generated table #136@0: 8 keys, 1014442 bytes
+2024/06/21-16:08:54.724 225f4 Compacted 4@0 + 3@1 files => 12616107 bytes
+2024/06/21-16:08:54.724 225f4 compacted to: files[ 0 5 5 0 0 0 0 ]
+2024/06/21-16:08:54.724 225f4 Delete type=2 #116
+2024/06/21-16:08:54.724 225f4 Delete type=2 #117
+2024/06/21-16:08:54.724 225f4 Delete type=2 #118
+2024/06/21-16:08:54.724 225f4 Delete type=2 #124
+2024/06/21-16:08:54.724 225f4 Delete type=2 #126
+2024/06/21-16:08:54.724 225f4 Delete type=2 #129
+2024/06/21-16:08:54.724 225f4 Delete type=2 #131
+2024/06/21-16:08:54.727 225f4 Compacting 1@1 + 1@2 files
+2024/06/21-16:08:54.737 225f4 Generated table #137@1: 8 keys, 2643348 bytes
+2024/06/21-16:08:54.737 225f4 Compacted 1@1 + 1@2 files => 2643348 bytes
+2024/06/21-16:08:54.737 225f4 compacted to: files[ 0 4 5 0 0 0 0 ]
+2024/06/21-16:08:54.737 225f4 Delete type=2 #72
+2024/06/21-16:08:54.737 225f4 Delete type=2 #133

@@ -1,0 +1,18 @@
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-1WJSO2.desktop
+message/rfc822=userapp-Thunderbird-1WJSO2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-1WJSO2.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-5TPTO2.desktop
+text/calendar=userapp-Thunderbird-5TPTO2.desktop
+application/x-extension-ics=userapp-Thunderbird-5TPTO2.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-5TPTO2.desktop
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_usr_lib_eclipse_.desktop
+application/x-zerosize=vim.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-1WJSO2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-1WJSO2.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-5TPTO2.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-5TPTO2.desktop;
+text/plain=nvim.desktop;
+application/x-zerosize=vim.desktop;

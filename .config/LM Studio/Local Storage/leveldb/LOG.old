@@ -1,0 +1,38 @@
+2024/06/18-19:04:33.828 193fb Reusing MANIFEST /home/shuvam/.config/LM Studio/Local Storage/leveldb/MANIFEST-000001
+2024/06/18-19:04:33.834 193fb Recovering log #10
+2024/06/18-19:04:33.835 193fb Level-0 table #13: started
+2024/06/18-19:04:33.839 193fb Level-0 table #13: 47711 bytes OK
+2024/06/18-19:04:33.854 193fb Delete type=0 #10
+2024/06/18-19:05:35.095 193fc Level-0 table #16: started
+2024/06/18-19:05:35.098 193fc Level-0 table #16: 44733 bytes OK
+2024/06/18-19:05:35.100 193fc Delete type=0 #14
+2024/06/18-19:05:35.101 193fc Compacting 4@0 + 1@1 files
+2024/06/18-19:05:35.112 193fc Generated table #17@0: 8 keys, 47317 bytes
+2024/06/18-19:05:35.112 193fc Compacted 4@0 + 1@1 files => 47317 bytes
+2024/06/18-19:05:35.113 193fc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/18-19:05:35.113 193fc Delete type=2 #7
+2024/06/18-19:05:35.113 193fc Delete type=2 #9
+2024/06/18-19:05:35.113 193fc Delete type=2 #11
+2024/06/18-19:05:35.113 193fc Delete type=2 #13
+2024/06/18-19:05:35.113 193fc Delete type=2 #16
+2024/06/18-19:06:35.096 193fc Level-0 table #19: started
+2024/06/18-19:06:35.099 193fc Level-0 table #19: 29464 bytes OK
+2024/06/18-19:06:35.101 193fc Delete type=0 #15
+2024/06/18-19:07:35.095 193fc Level-0 table #21: started
+2024/06/18-19:07:35.097 193fc Level-0 table #21: 38631 bytes OK
+2024/06/18-19:07:35.098 193fc Delete type=0 #18
+2024/06/18-19:08:35.097 19f38 Level-0 table #23: started
+2024/06/18-19:08:35.100 19f38 Level-0 table #23: 54745 bytes OK
+2024/06/18-19:08:35.101 19f38 Delete type=0 #20
+2024/06/18-19:10:24.658 1a523 Level-0 table #25: started
+2024/06/18-19:10:24.662 1a523 Level-0 table #25: 65731 bytes OK
+2024/06/18-19:10:24.663 1a523 Delete type=0 #22
+2024/06/18-19:10:24.663 1a523 Compacting 4@0 + 1@1 files
+2024/06/18-19:10:24.667 1a523 Generated table #26@0: 8 keys, 68320 bytes
+2024/06/18-19:10:24.667 1a523 Compacted 4@0 + 1@1 files => 68320 bytes
+2024/06/18-19:10:24.669 1a523 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/18-19:10:24.669 1a523 Delete type=2 #17
+2024/06/18-19:10:24.669 1a523 Delete type=2 #19
+2024/06/18-19:10:24.669 1a523 Delete type=2 #21
+2024/06/18-19:10:24.669 1a523 Delete type=2 #23
+2024/06/18-19:10:24.669 1a523 Delete type=2 #25

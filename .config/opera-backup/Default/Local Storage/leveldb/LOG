@@ -1,0 +1,9 @@
+2024/06/21-18:03:19.145 4 Reusing MANIFEST /home/shuvam/.config/opera/Default/Local Storage/leveldb/MANIFEST-000001
+2024/06/21-18:03:19.149 4 Recovering log #213
+2024/06/21-18:03:19.150 4 Reusing old log /home/shuvam/.config/opera/Default/Local Storage/leveldb/000213.log 
+2024/06/21-18:03:31.323 4 Level-0 table #217: started
+2024/06/21-18:03:31.324 4 Level-0 table #217: 18683 bytes OK
+2024/06/21-18:03:31.325 4 Delete type=0 #213
+2024/06/21-18:04:22.566 4 Level-0 table #219: started
+2024/06/21-18:04:22.568 4 Level-0 table #219: 19780 bytes OK
+2024/06/21-18:04:22.570 4 Delete type=0 #216

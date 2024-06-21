@@ -1,0 +1,151 @@
+2024-06-20 18:33:35.026 [INFO]: No proxy settings found
+2024-06-20 18:33:37.311 [INFO]: Creating manager directory: /tmp/9ba29e7d-8243-472c-9eae-9442dd872a59/codeium/manager
+2024-06-20 18:33:37.831 [INFO]: Using cached LS with valid crc32: /home/shuvam/.vscode-oss/extensions/codeium.codeium-1.8.64-universal/dist/a449546e0384eb1c5a91cd222eebb296be9a0f91/language_server_linux_x64
+2024-06-20 18:33:37.838 [INFO]: Language server started
+2024-06-20 18:33:37.963 [INFO]: [Language Server (stderr)]:
+I0620 18:33:37.962324 15730 main.go:558] Starting language server manager with pid 15730
+I0620 18:33:37.962456 15730 main.go:110] Manager acquired its lock file /tmp/9ba29e7d-8243-472c-9eae-9442dd872a59/codeium/manager/locks/manager.lock
+2024-06-20 18:33:37.963 [INFO]: [Language Server (stderr)]:
+I0620 18:33:37.963020 15730 main.go:248] Waiting for random port file in /tmp/9ba29e7d-8243-472c-9eae-9442dd872a59/codeium/manager/child_random_port_1718888617962570622_1351017536068198105 to be created
+2024-06-20 18:33:38.083 [INFO]: [Language Server (stderr)]:
+I0620 18:33:38.082533 15744 main.go:552] Starting language server process with pid 15744
+I0620 18:33:38.082591 15744 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0620 18:33:38.082703 15744 server.go:163] Language server listening on random port at 43481
+I0620 18:33:38.082755 15744 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0620 18:33:38.082770 15744 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0620 18:33:38.082790 15744 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-06-20 18:33:39.005 [INFO]: [Language Server (stderr)]:
+I0620 18:33:39.005037 15744 unleash.go:90] Initializing Unleash
+2024-06-20 18:33:39.924 [INFO]: [Language Server (stderr)]:
+I0620 18:33:39.923369 15744 unleash.go:110] Successfully initialized Unleash
+2024-06-20 18:33:39.935 [INFO]: [Language Server (stderr)]:
+E0620 18:33:39.934790 15744 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-06-20 18:33:40.961 [INFO]: [Language Server (stderr)]:
+I0620 18:33:40.960886 15744 server.go:355] Successfully created API server client
+2024-06-20 18:33:41.004 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.004094 15744 server.go:364] Successfully initialized tokenizer
+2024-06-20 18:33:41.101 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.101233 15744 server.go:473] Local search is enabled, will index local files.
+I0620 18:33:41.101270 15744 server.go:477] Using 3 indexer workers
+I0620 18:33:41.101315 15744 search_provider.go:200] Using database at /home/shuvam/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-06-20 18:33:41.125 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.124400 15744 database.go:123] Bad db state detected: false
+2024-06-20 18:33:41.126 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.125851 15744 search_provider.go:214] Successfully created embedding search database in 24ms
+2024-06-20 18:33:41.126 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.126334 15744 indexer.go:224] Using 12 embed workers
+I0620 18:33:41.126382 15744 search_provider.go:239] Successfully created and started indexer
+I0620 18:33:41.126418 15744 search_provider.go:265] Successfully created embedding search provider
+I0620 18:33:41.126434 15744 server.go:515] Successfully created exact search provider
+2024-06-20 18:33:41.161 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.161163 15744 server.go:545] Successfully created completion provider
+2024-06-20 18:33:41.162 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.161482 15744 server.go:594] Child process attempting to acquire lock file /tmp/9ba29e7d-8243-472c-9eae-9442dd872a59/codeium/manager/locks/child_lock_1718888617962614244_4754908073337699346
+I0620 18:33:41.161525 15744 server.go:602] Child process acquired lock file /tmp/9ba29e7d-8243-472c-9eae-9442dd872a59/codeium/manager/locks/child_lock_1718888617962614244_4754908073337699346
+2024-06-20 18:33:41.167 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.166819 15744 server.go:183] LSP listening on random port at 33807
+2024-06-20 18:33:41.168 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.167237 15744 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:39009
+2024-06-20 18:33:41.176 [INFO]: [Language Server (stdout)]:
+33807
+2024-06-20 18:33:41.176 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.175501 15730 main.go:284] Language server manager found random server port 43481
+I0620 18:33:41.175544 15730 main.go:285] Language server manager found random lsp port 33807
+I0620 18:33:41.175568 15730 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:43481
+2024-06-20 18:33:41.200 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.199575 15730 main.go:163] Fixing language server port at 43481
+I0620 18:33:41.199605 15730 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:43481
+2024-06-20 18:33:41.259 [INFO]: Found language server running on port 43481
+2024-06-20 18:33:41.265 [INFO]: Downloaded binary: /home/shuvam/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-20 18:33:41.272 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.272126 15744 rpcs_miscellaneous.go:118] Ripgrep available at /home/shuvam/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-20 18:33:41.477 [INFO]: [Language Server (stderr)]:
+I0620 18:33:41.476449 15744 rpcs_miscellaneous.go:312] University version is up to date.
+2024-06-20 18:33:42.417 [INFO]: [Language Server (stderr)]:
+I0620 18:33:42.416946 15744 utils.go:172] Analyzing workspace files for /home/shuvam/Information_Retrieval/
+2024-06-20 18:33:43.071 [INFO]: [Language Server (stderr)]:
+I0620 18:33:43.070402 15744 utils.go:232] Done analyzing workspace files for /home/shuvam/Information_Retrieval/
+I0620 18:33:43.070431 15744 lsp.go:208] Found 31036 files in workspace /home/shuvam/Information_Retrieval/
+2024-06-20 18:33:44.046 [INFO]: [Language Server (stderr)]:
+I0620 18:33:44.045414 15744 lsp.go:232] Adding workspace listener for [0xc0002cb730]
+2024-06-20 18:33:44.049 [INFO]: [Language Server (stderr)]:
+I0620 18:33:44.048953 15744 indexing_listener.go:177] Exceeded limit, will only index 5000 files in workspace /home/shuvam/Information_Retrieval/
+I0620 18:33:44.048978 15744 indexing_listener.go:198] Add workspace event with uid 1 for workspace /home/shuvam/Information_Retrieval/
+2024-06-20 18:33:44.085 [INFO]: [Language Server (stderr)]:
+I0620 18:33:44.084237 15744 lazy_model.go:29] Successfully created faiss index
+2024-06-20 18:34:17.196 [INFO]: [Language Server (stderr)]:
+I0620 18:34:17.189970 15744 indexing_listener.go:238] Done enqueue workspace with uid 1
+2024-06-20 18:38:47.476 [INFO]: Completion request was cancelled by token (856.56ms)
+2024-06-20 18:38:55.836 [INFO]: Completion request succeeded (505.55ms)
+2024-06-20 18:38:55.838 [INFO]: Generated 1 completion
+2024-06-20 18:38:55.839 [INFO]: provideInlineCompletionItems request succeeded (510.12ms)
+2024-06-20 18:38:55.977 [INFO]: Completion request succeeded (4.81ms)
+2024-06-20 18:38:55.978 [INFO]: Generated 1 completion
+2024-06-20 18:38:55.978 [INFO]: provideInlineCompletionItems request succeeded (6.64ms)
+2024-06-20 18:38:56.484 [INFO]: Completion request succeeded (4.89ms)
+2024-06-20 18:38:56.484 [INFO]: Generated 1 completion
+2024-06-20 18:38:56.485 [INFO]: provideInlineCompletionItems request succeeded (6.77ms)
+2024-06-20 18:39:00.909 [INFO]: Completion request succeeded (1307.99ms)
+2024-06-20 18:39:00.911 [INFO]: Generated 2 completions
+2024-06-20 18:39:00.912 [INFO]: provideInlineCompletionItems request succeeded (1311.42ms)
+2024-06-20 18:39:01.157 [INFO]: Completion request was cancelled by token (43.5ms)
+2024-06-20 18:39:01.208 [INFO]: Skipping completions because autocomplete is open
+2024-06-20 18:44:39.946 [INFO]: [Language Server (stderr)]:
+I0620 18:44:39.936013 15744 client_manager.go:248] Pruning inactive client for {954de0ea-e4a4-4ec8-a9d5-03484e212251 730c740b-7183-4a46-a794-77c7b28540f0}
+2024-06-20 18:48:54.475 [INFO]: Completion request was cancelled by token (149.17ms)
+2024-06-20 18:48:54.659 [INFO]: Completion request was cancelled by token (137.38ms)
+2024-06-20 18:48:54.720 [INFO]: [Language Server (stderr)]:
+E0620 18:48:54.715573 15744 unleash_wrapper.go:58] Error parsing autocomplete model variant: unknown model name MODEL_12471: model not found
+2024-06-20 18:48:54.828 [INFO]: Completion request was cancelled by token (117.13ms)
+2024-06-20 18:48:55.020 [INFO]: Completion request was cancelled by token (141.58ms)
+2024-06-20 18:48:55.223 [INFO]: Completion request was cancelled by token (152.98ms)
+2024-06-20 18:48:55.607 [INFO]: Completion request was cancelled by token (332.55ms)
+2024-06-20 18:48:55.874 [INFO]: Completion request was cancelled by token (216.69ms)
+2024-06-20 18:48:56.112 [INFO]: Completion request was cancelled by token (187.05ms)
+2024-06-20 18:48:56.302 [INFO]: Completion request was cancelled by token (141.27ms)
+2024-06-20 18:48:56.540 [INFO]: Completion request was cancelled by token (186.03ms)
+2024-06-20 18:48:57.011 [INFO]: Completion request was cancelled by token (421.02ms)
+2024-06-20 18:48:57.749 [INFO]: Completion request succeeded (686.71ms)
+2024-06-20 18:48:57.750 [INFO]: No completions were generated
+2024-06-20 18:48:57.751 [INFO]: provideInlineCompletionItems request succeeded (689.93ms)
+2024-06-20 18:49:11.882 [INFO]: Completion request succeeded (1110.09ms)
+2024-06-20 18:49:11.883 [INFO]: No completions were generated
+2024-06-20 18:49:11.884 [INFO]: provideInlineCompletionItems request succeeded (1112.05ms)
+2024-06-20 18:49:14.715 [INFO]: Completion request succeeded (471.58ms)
+2024-06-20 18:49:14.716 [INFO]: No completions were generated
+2024-06-20 18:49:14.716 [INFO]: provideInlineCompletionItems request succeeded (473.21ms)
+2024-06-20 18:49:16.734 [INFO]: Completion request was cancelled by token (275.6ms)
+2024-06-20 18:49:17.859 [INFO]: Completion request succeeded (1074.69ms)
+2024-06-20 18:49:17.859 [INFO]: No completions were generated
+2024-06-20 18:49:17.860 [INFO]: provideInlineCompletionItems request succeeded (1076.82ms)
+2024-06-20 18:49:48.241 [INFO]: Completion request succeeded (481.66ms)
+2024-06-20 18:49:48.242 [INFO]: No completions were generated
+2024-06-20 18:49:48.242 [INFO]: provideInlineCompletionItems request succeeded (484.05ms)
+2024-06-20 18:49:49.097 [INFO]: Completion request was cancelled by token (13.87ms)
+2024-06-20 18:49:49.147 [INFO]: Skipping completions because autocomplete is open
+2024-06-20 18:49:49.298 [INFO]: Skipping completions because autocomplete is open
+2024-06-20 18:49:49.491 [INFO]: Skipping completions because autocomplete is open
+2024-06-20 18:49:50.772 [INFO]: Completion request succeeded (795.99ms)
+2024-06-20 18:49:50.773 [INFO]: Generated 8 completions
+2024-06-20 18:49:50.774 [INFO]: provideInlineCompletionItems request succeeded (799.32ms)
+2024-06-20 18:49:55.068 [INFO]: Completion request succeeded (1258.3ms)
+2024-06-20 18:49:55.068 [INFO]: No completions were generated
+2024-06-20 18:49:55.068 [INFO]: provideInlineCompletionItems request succeeded (1259.93ms)
+2024-06-20 18:52:05.444 [INFO]: Completion request succeeded (787.73ms)
+2024-06-20 18:52:05.446 [INFO]: Generated 1 completion
+2024-06-20 18:52:05.447 [INFO]: provideInlineCompletionItems request succeeded (791.01ms)
+2024-06-20 18:53:38.174 [INFO]: [Language Server (stderr)]:
+E0620 18:53:38.104756 15744 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file %!s(MISSING) is too large to parse
+2024-06-20 18:53:38.184 [ERROR]: [unknown] file %!s(MISSING) is too large to parse
+2024-06-20 18:53:39.085 [INFO]: [Language Server (stderr)]:
+E0620 18:53:39.084907 15744 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file %!s(MISSING) is too large to parse
+2024-06-20 18:53:39.086 [ERROR]: [unknown] file %!s(MISSING) is too large to parse
+2024-06-20 18:53:42.622 [INFO]: [Language Server (stderr)]:
+E0620 18:53:42.360715 15744 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file %!s(MISSING) is too large to parse
+2024-06-20 18:53:42.623 [ERROR]: [unknown] file %!s(MISSING) is too large to parse
+2024-06-20 18:53:48.479 [INFO]: [Language Server (stderr)]:
+E0620 18:53:48.094177 15744 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file %!s(MISSING) is too large to parse
+2024-06-20 18:53:48.480 [ERROR]: [unknown] file %!s(MISSING) is too large to parse
+2024-06-20 18:53:54.873 [INFO]: [Language Server (stderr)]:
+E0620 18:53:54.390411 15744 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file %!s(MISSING) is too large to parse
+2024-06-20 18:53:54.874 [ERROR]: [unknown] file %!s(MISSING) is too large to parse

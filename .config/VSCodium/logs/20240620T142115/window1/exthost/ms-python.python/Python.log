@@ -1,0 +1,13 @@
+2024-06-20 14:21:17.516 [info] Telemetry level is off
+2024-06-20 14:21:17.516 [info] Experiments are disabled, only manually opted experiments are active.
+2024-06-20 14:21:17.516 [info] Default formatter is set to null for workspace /home/shuvam/Information_Retrieval
+2024-06-20 14:21:17.516 [info] Test server listening.
+2024-06-20 14:21:17.516 [info] > conda info --json
+2024-06-20 14:21:17.516 [info] Python interpreter path: /bin/python
+2024-06-20 14:21:17.520 [info] > ~/.conda/bin/conda info --json
+2024-06-20 14:21:17.526 [info] > pyenv which python
+2024-06-20 14:21:17.526 [info] cwd: .
+2024-06-20 14:21:17.547 [info] > ./LLMS/text-generation-webui-main/installer_files/conda/bin/conda info --json
+2024-06-20 14:21:17.552 [info] > ./LLMS/text-generation-webui-main/installer_files/env/bin/conda info --json
+2024-06-20 14:21:18.710 [info] Starting Jedi language server for Information_Retrieval.
+2024-06-20 14:21:24.470 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/query_analysis/genre_analyser.py

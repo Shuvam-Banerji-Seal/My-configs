@@ -1,0 +1,85 @@
+import os
+import re
+
+def parse_qrel(qrel_path):
+    """Parse qrel file and return a dictionary with query_id as key and doc_id as value."""
+    qrel_dict = {}
+    with open(qrel_path, 'r') as file:
+        for line in file:
+            parts = line.strip().split()
+            query_id = parts[0]
+            doc_id = parts[2]
+            qrel_dict[query_id] = doc_id
+    return qrel_dict
+
+def parse_results(results_path):
+    """Parse results file and return a dictionary with query_id as key and list of doc_ids as value."""
+    results_dict = {}
+    with open(results_path, 'r') as file:
+        current_query_id = None
+        for line in file:
+            line = line.strip()
+            if line.startswith("Query ID:"):
+                current_query_id = line.split()[-1]
+                results_dict[current_query_id] = []
+            elif line.startswith("Total number of matching documents:"):
+                continue
+            else:
+                results_dict[current_query_id].append(line)
+    return results_dict
+
+def find_doc_rank(qrel_dict, results_dict, output_path):
+    """Find the rank of the correct document for each query_id and save to a file, also calculate MRR."""
+    reciprocal_ranks = []
+    with open(output_path, 'w') as out_file:
+        for query_id, correct_doc_id in qrel_dict.items():
+            if query_id in results_dict:
+                try:
+                    rank = results_dict[query_id].index(correct_doc_id) + 1
+                    reciprocal_ranks.append(1 / rank)
+                    out_file.write(f"Query ID: {query_id}, Document ID: {correct_doc_id}, Rank: {rank}\n")
+                except ValueError:
+                    reciprocal_ranks.append(0)
+                    out_file.write(f"Query ID: {query_id}, Document ID: {correct_doc_id}, Rank: Not found\n")
+            else:
+                reciprocal_ranks.append(0)
+                out_file.write(f"Query ID: {query_id} not found in results\n")
+
+        # Calculate Mean Reciprocal Rank (MRR)
+        if reciprocal_ranks:
+            mrr = sum(reciprocal_ranks) / len(reciprocal_ranks)
+        else:
+            mrr = 0
+        out_file.write(f"\nMean Reciprocal Rank (MRR): {mrr:.4f}\n")
+    return mrr
+
+def main():
+    qrel_path = "/home/shuvam/Information_Retrieval/reults_bm25/qrel.txt"
+    results_dir = "/home/shuvam/Codes/Random/"
+    summary_output_path = "summary_mrr.txt"
+    
+    qrel_dict = parse_qrel(qrel_path)
+    
+    summary_data = []
+    
+    results_files = [f for f in os.listdir(results_dir) if re.match(r'results_k1_\d_\d_b_\d_\d_txt', f)]
+    
+    for results_file in results_files:
+        results_path = os.path.join(results_dir, results_file)
+        results_dict = parse_results(results_path)
+        
+        k1_value = re.search(r'results_k1_(\d_\d)_b_\d_\d_txt', results_file).group(1).replace('_', '.')
+        b_value = re.search(r'results_k1_\d_\d_b_(\d_\d)_txt', results_file).group(1).replace('_', '.')
+        
+        output_path = f"ranked_results_mrr_k1_{k1_value.replace('.', '_')}_b_{b_value.replace('.', '_')}.txt"
+        
+        mrr = find_doc_rank(qrel_dict, results_dict, output_path)
+        
+        summary_data.append((k1_value, b_value, mrr))
+    
+    with open(summary_output_path, 'w') as summary_file:
+        for k1, b, mrr in summary_data:
+            summary_file.write(f"k1: {k1}, b: {b}, MRR: {mrr:.4f}\n")
+
+if __name__ == "__main__":
+    main()

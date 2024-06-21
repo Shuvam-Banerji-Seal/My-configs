@@ -1,0 +1,24 @@
+{
+   "author": "Opera Norway AS",
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "index.js" ],
+      "matches": [ "chrome://startpage/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Startpage Special Extension",
+   "homepage_url": "https://opera.com",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApSjO2Ezx2ksbOzpX50Rv4XgGaXiFWbcXqQtGA8mh1f0tzfSCfxgQVIvZ+rv7lrUIWV1lbEBTxSjG86GYwsKHHiE6TmstNcIq75rjSnKNJUG1/f1dB67rVeCaZPFiT4yhqJmf4dp9G+BU09lDGc8u3+7ecKUTUtuHxSPWJRlYGukKvh4/I3QnkwlB7nugvQ9/uaWZzwk/RCY77hgCTebczkqDm+11sNkzDyWkjNJ4PXd7LrFNqIuoDqmgiadu2PmKE25ironZQUrIA56ExLi5aBDzkOwaMMFgxkksePBPgoAQNX7VSNiCUyxk0eA9gqA7Y3oF9yFXoEMna/J+QGvDvwIDAQAB",
+   "manifest_version": 3,
+   "name": "opera-startpage-special",
+   "permissions": [ "storage" ],
+   "update_url": "https://download3.operacdn.com/.private/assistserv/startpage/updates.xml",
+   "version": "0.0.30",
+   "web_accessible_resources": [ {
+      "matches": [ "chrome://startpage/*" ],
+      "resources": [ "fonts/*.ttf" ]
+   }, {
+      "matches": [ "chrome://startpage/*" ],
+      "resources": [ "imgs/*" ]
+   } ]
+}

@@ -1,0 +1,34 @@
+2024-06-20 16:29:47.429 [info] Telemetry level is off
+2024-06-20 16:29:47.429 [info] Experiments are disabled, only manually opted experiments are active.
+2024-06-20 16:29:47.429 [info] Default formatter is set to null for workspace /home/shuvam/Information_Retrieval
+2024-06-20 16:29:47.429 [info] Test server listening.
+2024-06-20 16:29:47.429 [info] > conda info --json
+2024-06-20 16:29:47.429 [info] Python interpreter path: /bin/python
+2024-06-20 16:29:47.433 [info] > ~/.conda/bin/conda info --json
+2024-06-20 16:29:47.442 [info] > ./LLMS/text-generation-webui-main/installer_files/conda/bin/conda info --json
+2024-06-20 16:29:47.446 [info] > ./LLMS/text-generation-webui-main/installer_files/env/bin/conda info --json
+2024-06-20 16:29:47.484 [info] > pyenv which python
+2024-06-20 16:29:47.484 [info] cwd: .
+2024-06-20 16:29:48.289 [info] Starting Jedi language server for Information_Retrieval.
+2024-06-20 16:32:38.443 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/reults_bm25/Python_code/ranker.py
+2024-06-20 17:02:24.046 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:02:45.098 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:03:24.834 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:03:26.698 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:03:48.413 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:04:03.200 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:04:04.655 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:04:08.822 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:04:32.328 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:04:32.900 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:05:13.352 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:05:31.597 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:05:34.240 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:06:57.109 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:07:01.565 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:07:05.026 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:07:10.496 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:07:19.535 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:07:21.082 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:07:22.600 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py
+2024-06-20 17:07:26.939 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/all_results_before_corr_ans.py

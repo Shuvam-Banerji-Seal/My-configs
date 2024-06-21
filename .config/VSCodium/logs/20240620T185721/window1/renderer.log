@@ -1,0 +1,25 @@
+2024-06-20 18:57:22.397 [info] Started local extension host with pid 24111.
+2024-06-20 18:57:22.725 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-html
+2024-06-20 18:57:22.725 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-txt
+2024-06-20 18:57:25.232 [info] [perf] Render performance baseline is 39ms
+2024-06-20 18:57:37.194 [info] Started local extension host with pid 24316.
+2024-06-20 18:57:38.076 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-html
+2024-06-20 18:57:38.076 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-txt
+2024-06-20 18:57:39.949 [info] [perf] Render performance baseline is 29ms
+2024-06-20 19:06:05.757 [info] Extension host (LocalProcess pid: 24316) is unresponsive.
+2024-06-20 19:06:05.758 [info] Extension host (LocalProcess pid: 24316) is responsive.
+2024-06-20 19:06:06.166 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-06-20 19:06:10.360 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-06-20 19:06:23.164 [info] Extension host (LocalProcess pid: 24316) is unresponsive.
+2024-06-20 19:06:23.204 [info] Extension host (LocalProcess pid: 24316) is responsive.
+2024-06-20 19:07:02.583 [info] Extension host (LocalProcess pid: 24316) is unresponsive.
+2024-06-20 19:07:02.638 [info] Extension host (LocalProcess pid: 24316) is responsive.
+2024-06-20 19:07:02.640 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-06-20 19:07:03.054 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-06-20 19:07:11.144 [info] Extension host (LocalProcess pid: 24316) is unresponsive.
+2024-06-20 19:07:12.713 [info] Extension host (LocalProcess pid: 24316) is responsive.
+2024-06-20 19:07:12.714 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-06-20 19:07:17.095 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-06-20 19:07:17.709 [info] Extension host (LocalProcess pid: 24316) is unresponsive.
+2024-06-20 19:07:18.728 [info] Extension host (LocalProcess pid: 24316) is responsive.
+2024-06-20 19:07:18.729 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session

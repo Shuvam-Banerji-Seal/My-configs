@@ -1,0 +1,294 @@
+2024-06-19 18:46:10.506 [INFO]: No proxy settings found
+2024-06-19 18:46:12.708 [INFO]: Creating manager directory: /tmp/692331d6-2f65-489c-a313-147260cd260b/codeium/manager
+2024-06-19 18:46:13.205 [INFO]: Using cached LS with valid crc32: /home/shuvam/.vscode-oss/extensions/codeium.codeium-1.8.64-universal/dist/a449546e0384eb1c5a91cd222eebb296be9a0f91/language_server_linux_x64
+2024-06-19 18:46:13.211 [INFO]: Language server started
+2024-06-19 18:46:13.328 [INFO]: [Language Server (stderr)]:
+I0619 18:46:13.327629  6190 main.go:558] Starting language server manager with pid 6190
+I0619 18:46:13.327738  6190 main.go:110] Manager acquired its lock file /tmp/692331d6-2f65-489c-a313-147260cd260b/codeium/manager/locks/manager.lock
+2024-06-19 18:46:13.329 [INFO]: [Language Server (stderr)]:
+I0619 18:46:13.328808  6190 main.go:248] Waiting for random port file in /tmp/692331d6-2f65-489c-a313-147260cd260b/codeium/manager/child_random_port_1718802973327866030_9070303959056424849 to be created
+2024-06-19 18:46:13.449 [INFO]: [Language Server (stderr)]:
+I0619 18:46:13.447851  6204 main.go:552] Starting language server process with pid 6204
+I0619 18:46:13.447906  6204 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0619 18:46:13.448019  6204 server.go:163] Language server listening on random port at 34269
+I0619 18:46:13.448070  6204 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0619 18:46:13.448083  6204 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0619 18:46:13.448104  6204 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-06-19 18:46:14.262 [INFO]: [Language Server (stderr)]:
+I0619 18:46:14.261795  6204 unleash.go:90] Initializing Unleash
+2024-06-19 18:46:15.056 [INFO]: [Language Server (stderr)]:
+I0619 18:46:15.055104  6204 unleash.go:110] Successfully initialized Unleash
+2024-06-19 18:46:15.067 [INFO]: [Language Server (stderr)]:
+E0619 18:46:15.066106  6204 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-06-19 18:46:15.853 [INFO]: [Language Server (stderr)]:
+I0619 18:46:15.852657  6204 server.go:355] Successfully created API server client
+2024-06-19 18:46:15.898 [INFO]: [Language Server (stderr)]:
+I0619 18:46:15.897728  6204 server.go:364] Successfully initialized tokenizer
+2024-06-19 18:46:15.998 [INFO]: [Language Server (stderr)]:
+I0619 18:46:15.997932  6204 server.go:473] Local search is enabled, will index local files.
+I0619 18:46:15.997969  6204 server.go:477] Using 3 indexer workers
+I0619 18:46:15.998042  6204 search_provider.go:200] Using database at /home/shuvam/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-06-19 18:46:16.008 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.008097  6204 database.go:123] Bad db state detected: false
+2024-06-19 18:46:16.009 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.008810  6204 search_provider.go:214] Successfully created embedding search database in 10ms
+2024-06-19 18:46:16.010 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.009174  6204 indexer.go:224] Using 12 embed workers
+I0619 18:46:16.009242  6204 search_provider.go:239] Successfully created and started indexer
+I0619 18:46:16.009265  6204 search_provider.go:265] Successfully created embedding search provider
+I0619 18:46:16.009276  6204 server.go:515] Successfully created exact search provider
+2024-06-19 18:46:16.022 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.021777  6204 server.go:545] Successfully created completion provider
+2024-06-19 18:46:16.023 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.021945  6204 server.go:594] Child process attempting to acquire lock file /tmp/692331d6-2f65-489c-a313-147260cd260b/codeium/manager/locks/child_lock_1718802973327897528_6685551823048608944
+I0619 18:46:16.021999  6204 server.go:602] Child process acquired lock file /tmp/692331d6-2f65-489c-a313-147260cd260b/codeium/manager/locks/child_lock_1718802973327897528_6685551823048608944
+2024-06-19 18:46:16.026 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.026167  6204 server.go:183] LSP listening on random port at 42449
+2024-06-19 18:46:16.027 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.026550  6204 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:42857
+2024-06-19 18:46:16.040 [INFO]: [Language Server (stdout)]:
+42449
+2024-06-19 18:46:16.041 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.039886  6190 main.go:284] Language server manager found random server port 34269
+I0619 18:46:16.039925  6190 main.go:285] Language server manager found random lsp port 42449
+I0619 18:46:16.039947  6190 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:34269
+2024-06-19 18:46:16.068 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.067298  6190 main.go:163] Fixing language server port at 34269
+I0619 18:46:16.067325  6190 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:34269
+2024-06-19 18:46:16.126 [INFO]: Found language server running on port 34269
+2024-06-19 18:46:16.139 [INFO]: Downloaded binary: /home/shuvam/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-19 18:46:16.156 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.155027  6204 rpcs_miscellaneous.go:118] Ripgrep available at /home/shuvam/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-19 18:46:16.344 [INFO]: [Language Server (stderr)]:
+I0619 18:46:16.344038  6204 rpcs_miscellaneous.go:312] University version is up to date.
+2024-06-19 18:46:17.428 [INFO]: [Language Server (stderr)]:
+I0619 18:46:17.427576  6204 utils.go:172] Analyzing workspace files for /home/shuvam/Information_Retrieval/
+2024-06-19 18:46:18.161 [INFO]: [Language Server (stderr)]:
+I0619 18:46:18.161085  6204 utils.go:232] Done analyzing workspace files for /home/shuvam/Information_Retrieval/
+I0619 18:46:18.161111  6204 lsp.go:208] Found 31584 files in workspace /home/shuvam/Information_Retrieval/
+2024-06-19 18:46:19.188 [INFO]: [Language Server (stderr)]:
+I0619 18:46:19.187616  6204 lsp.go:232] Adding workspace listener for [0xc0002d0b60]
+2024-06-19 18:46:19.191 [INFO]: [Language Server (stderr)]:
+I0619 18:46:19.190670  6204 indexing_listener.go:177] Exceeded limit, will only index 5000 files in workspace /home/shuvam/Information_Retrieval/
+I0619 18:46:19.190691  6204 indexing_listener.go:198] Add workspace event with uid 1 for workspace /home/shuvam/Information_Retrieval/
+2024-06-19 18:46:19.209 [INFO]: [Language Server (stderr)]:
+I0619 18:46:19.208941  6204 lazy_model.go:29] Successfully created faiss index
+2024-06-19 18:46:32.765 [INFO]: [Language Server (stderr)]:
+I0619 18:46:32.764018  6204 indexing_listener.go:238] Done enqueue workspace with uid 1
+2024-06-19 18:52:15.067 [INFO]: [Language Server (stderr)]:
+I0619 18:52:15.066687  6204 client_manager.go:248] Pruning inactive client for {954de0ea-e4a4-4ec8-a9d5-03484e212251 2044410b-b40b-4138-af42-11baa7711d25}
+2024-06-19 21:45:16.265 [INFO]: [Language Server (stderr)]:
+E0619 21:45:16.264314  6204 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-19 22:10:01.058 [INFO]: Completion request was cancelled by token (150.31ms)
+2024-06-19 22:10:01.212 [INFO]: Completion request was cancelled by token (103.61ms)
+2024-06-19 22:10:03.358 [INFO]: Completion request succeeded (2096.47ms)
+2024-06-19 22:10:03.360 [INFO]: Generated 3 completions
+2024-06-19 22:10:03.364 [INFO]: provideInlineCompletionItems request succeeded (2103.83ms)
+2024-06-19 22:10:05.571 [INFO]: Completion request was cancelled by token (490.28ms)
+2024-06-19 22:10:06.298 [INFO]: Completion request was cancelled by token (676.75ms)
+2024-06-19 22:10:06.457 [INFO]: Completion request was cancelled by token (104.9ms)
+2024-06-19 22:10:06.714 [INFO]: Completion request was cancelled by token (206.74ms)
+2024-06-19 22:10:06.951 [INFO]: Completion request was cancelled by token (184.58ms)
+2024-06-19 22:10:07.895 [INFO]: Completion request was cancelled by token (893.95ms)
+2024-06-19 22:10:09.389 [INFO]: Completion request was cancelled by token (110.46ms)
+2024-06-19 22:10:09.581 [INFO]: Completion request was cancelled by token (142.83ms)
+2024-06-19 22:10:10.370 [INFO]: Completion request succeeded (737.59ms)
+2024-06-19 22:10:10.372 [INFO]: No completions were generated
+2024-06-19 22:10:10.372 [INFO]: provideInlineCompletionItems request succeeded (740.82ms)
+2024-06-19 22:10:11.066 [INFO]: Completion request succeeded (486.58ms)
+2024-06-19 22:10:11.068 [INFO]: Generated 1 completion
+2024-06-19 22:10:11.069 [INFO]: provideInlineCompletionItems request succeeded (491.19ms)
+2024-06-19 22:10:11.462 [INFO]: Completion request succeeded (7.09ms)
+2024-06-19 22:10:11.463 [INFO]: Generated 1 completion
+2024-06-19 22:10:11.463 [INFO]: provideInlineCompletionItems request succeeded (9.31ms)
+2024-06-19 22:10:13.456 [INFO]: Completion request succeeded (1074.41ms)
+2024-06-19 22:10:13.457 [INFO]: No completions were generated
+2024-06-19 22:10:13.458 [INFO]: provideInlineCompletionItems request succeeded (1077.95ms)
+2024-06-19 22:16:15.069 [INFO]: [Language Server (stderr)]:
+I0619 22:16:15.067507  6204 client_manager.go:248] Pruning inactive client for {954de0ea-e4a4-4ec8-a9d5-03484e212251 2044410b-b40b-4138-af42-11baa7711d25}
+2024-06-19 22:23:48.297 [INFO]: Completion request succeeded (911.15ms)
+2024-06-19 22:23:48.298 [INFO]: No completions were generated
+2024-06-19 22:23:48.298 [INFO]: provideInlineCompletionItems request succeeded (913.5ms)
+2024-06-19 22:29:15.070 [INFO]: [Language Server (stderr)]:
+I0619 22:29:15.066360  6204 client_manager.go:248] Pruning inactive client for {954de0ea-e4a4-4ec8-a9d5-03484e212251 2044410b-b40b-4138-af42-11baa7711d25}
+2024-06-19 22:33:39.867 [INFO]: Completion request was cancelled by token (124.48ms)
+2024-06-19 22:33:40.029 [INFO]: Completion request was cancelled by token (117.65ms)
+2024-06-19 22:33:40.573 [INFO]: Completion request succeeded (494.37ms)
+2024-06-19 22:33:40.576 [INFO]: Generated 1 completion
+2024-06-19 22:33:40.577 [INFO]: provideInlineCompletionItems request succeeded (499.56ms)
+2024-06-19 22:33:41.067 [INFO]: Completion request was cancelled by token (220.99ms)
+2024-06-19 22:33:41.270 [INFO]: Completion request was cancelled by token (153.94ms)
+2024-06-19 22:33:41.605 [INFO]: Completion request was cancelled by token (284.79ms)
+2024-06-19 22:33:41.788 [INFO]: Completion request was cancelled by token (133.83ms)
+2024-06-19 22:33:42.122 [INFO]: Completion request was cancelled by token (283.93ms)
+2024-06-19 22:33:42.281 [INFO]: Completion request was cancelled by token (109.19ms)
+2024-06-19 22:33:42.830 [INFO]: Completion request succeeded (496.87ms)
+2024-06-19 22:33:42.832 [INFO]: Generated 1 completion
+2024-06-19 22:33:42.833 [INFO]: provideInlineCompletionItems request succeeded (500.84ms)
+2024-06-19 22:33:44.664 [INFO]: Completion request succeeded (476.29ms)
+2024-06-19 22:33:44.666 [INFO]: No completions were generated
+2024-06-19 22:33:44.666 [INFO]: provideInlineCompletionItems request succeeded (478.93ms)
+2024-06-19 22:33:46.288 [INFO]: Completion request succeeded (514.22ms)
+2024-06-19 22:33:46.289 [INFO]: Generated 1 completion
+2024-06-19 22:33:46.290 [INFO]: provideInlineCompletionItems request succeeded (516.23ms)
+2024-06-19 22:33:48.272 [INFO]: Completion request succeeded (1110.27ms)
+2024-06-19 22:33:48.274 [INFO]: No completions were generated
+2024-06-19 22:33:48.275 [INFO]: provideInlineCompletionItems request succeeded (1114.2ms)
+2024-06-19 22:37:55.396 [INFO]: Completion request succeeded (477.77ms)
+2024-06-19 22:37:55.397 [INFO]: No completions were generated
+2024-06-19 22:37:55.398 [INFO]: provideInlineCompletionItems request succeeded (481.18ms)
+2024-06-19 22:43:15.068 [INFO]: [Language Server (stderr)]:
+I0619 22:43:15.066756  6204 client_manager.go:248] Pruning inactive client for {954de0ea-e4a4-4ec8-a9d5-03484e212251 2044410b-b40b-4138-af42-11baa7711d25}
+2024-06-19 22:47:33.028 [INFO]: Completion request was cancelled by token (133.72ms)
+2024-06-19 22:47:33.176 [INFO]: Completion request was cancelled by token (88.78ms)
+2024-06-19 22:47:34.531 [INFO]: Completion request succeeded (1292.32ms)
+2024-06-19 22:47:34.532 [INFO]: Generated 1 completion
+2024-06-19 22:47:34.534 [INFO]: provideInlineCompletionItems request succeeded (1307.19ms)
+2024-06-19 22:47:36.140 [INFO]: Completion request succeeded (468.41ms)
+2024-06-19 22:47:36.140 [INFO]: No completions were generated
+2024-06-19 22:47:36.141 [INFO]: provideInlineCompletionItems request succeeded (480.77ms)
+2024-06-19 22:47:38.207 [INFO]: Completion request succeeded (1158.53ms)
+2024-06-19 22:47:38.208 [INFO]: Generated 1 completion
+2024-06-19 22:47:38.208 [INFO]: provideInlineCompletionItems request succeeded (1175.06ms)
+2024-06-19 22:47:40.052 [INFO]: Completion request succeeded (1257.08ms)
+2024-06-19 22:47:40.053 [INFO]: No completions were generated
+2024-06-19 22:47:40.053 [INFO]: provideInlineCompletionItems request succeeded (1267.23ms)
+2024-06-19 22:53:00.562 [INFO]: Completion request succeeded (482.38ms)
+2024-06-19 22:53:00.564 [INFO]: No completions were generated
+2024-06-19 22:53:00.564 [INFO]: provideInlineCompletionItems request succeeded (518.27ms)
+2024-06-19 22:54:25.870 [INFO]: Completion request was cancelled by token (421.32ms)
+2024-06-19 22:54:26.571 [INFO]: Completion request succeeded (615.67ms)
+2024-06-19 22:54:26.573 [INFO]: Generated 1 completion
+2024-06-19 22:54:26.574 [INFO]: provideInlineCompletionItems request succeeded (653.6ms)
+2024-06-19 22:54:28.197 [INFO]: Completion request succeeded (1101.26ms)
+2024-06-19 22:54:28.199 [INFO]: No completions were generated
+2024-06-19 22:54:28.200 [INFO]: provideInlineCompletionItems request succeeded (1147.9ms)
+2024-06-19 22:58:40.497 [INFO]: Completion request was cancelled by token (104.23ms)
+2024-06-19 22:58:41.167 [INFO]: Completion request succeeded (572.43ms)
+2024-06-19 22:58:41.170 [INFO]: No completions were generated
+2024-06-19 22:58:41.171 [INFO]: provideInlineCompletionItems request succeeded (626.83ms)
+2024-06-19 23:03:20.461 [INFO]: Completion request succeeded (504.37ms)
+2024-06-19 23:03:20.462 [INFO]: No completions were generated
+2024-06-19 23:03:20.462 [INFO]: provideInlineCompletionItems request succeeded (506.94ms)
+2024-06-19 23:06:34.468 [INFO]: Completion request succeeded (490.23ms)
+2024-06-19 23:06:34.471 [INFO]: No completions were generated
+2024-06-19 23:06:34.471 [INFO]: provideInlineCompletionItems request succeeded (552.72ms)
+2024-06-19 23:08:37.344 [INFO]: Completion request succeeded (478.22ms)
+2024-06-19 23:08:37.346 [INFO]: No completions were generated
+2024-06-19 23:08:37.346 [INFO]: provideInlineCompletionItems request succeeded (546.2ms)
+2024-06-19 23:10:08.128 [INFO]: [Language Server (stderr)]:
+E0619 23:10:07.587771  6204 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: file %!s(MISSING) is too large to parse
+2024-06-19 23:10:08.151 [ERROR]: [unknown] file %!s(MISSING) is too large to parse
+2024-06-19 23:14:15.068 [INFO]: [Language Server (stderr)]:
+I0619 23:14:15.067156  6204 client_manager.go:248] Pruning inactive client for {954de0ea-e4a4-4ec8-a9d5-03484e212251 2044410b-b40b-4138-af42-11baa7711d25}
+2024-06-19 23:15:31.445 [INFO]: [Language Server (stderr)]:
+E0619 23:15:31.444397  6204 client_manager.go:289] Error getting user JWT: unavailable: read tcp 10.20.101.45:57744->35.223.238.178:443: read: connection reset by peer
+2024-06-19 23:15:31.737 [INFO]: [Language Server (stderr)]:
+E0619 23:15:31.735676  6204 completion.go:299] Completion 32260 error: invalid_argument: missing user JWT for inference API server
+2024-06-19 23:15:31.742 [ERROR]: [invalid_argument] missing user JWT for inference API server
+2024-06-19 23:15:31.743 [INFO]: Completion request errored (651.91ms)
+2024-06-19 23:15:31.743 [ERROR]: [invalid_argument] missing user JWT for inference API server
+2024-06-19 23:15:52.693 [INFO]: Completion request was cancelled by token (158.33ms)
+2024-06-19 23:15:53.273 [INFO]: [Language Server (stderr)]:
+E0619 23:15:53.272636  6204 completion.go:299] Completion 32305 error: invalid_argument: missing user JWT for inference API server
+2024-06-19 23:15:53.277 [ERROR]: [invalid_argument] missing user JWT for inference API server
+2024-06-19 23:15:53.278 [INFO]: Completion request errored (532.86ms)
+2024-06-19 23:15:53.278 [ERROR]: [invalid_argument] missing user JWT for inference API server
+2024-06-19 23:16:24.151 [INFO]: [Language Server (stderr)]:
+E0619 23:16:24.143136  6204 embedding.go:34] GetEmbeddings error: unavailable: EOF
+2024-06-19 23:16:24.167 [INFO]: [Language Server (stderr)]:
+E0619 23:16:24.163558  6204 embedding.go:34] GetEmbeddings error: unavailable: EOF
+2024-06-19 23:16:24.177 [INFO]: [Language Server (stderr)]:
+E0619 23:16:24.173977  6204 embedding.go:34] GetEmbeddings error: unavailable: EOF
+2024-06-19 23:16:39.345 [INFO]: [Language Server (stderr)]:
+E0619 23:16:39.333652  6204 embedding.go:34] GetEmbeddings error: unavailable: EOF
+E0619 23:16:39.339099  6204 embedding.go:34] GetEmbeddings error: unavailable: EOF
+2024-06-19 23:19:48.457 [INFO]: Completion request was cancelled by token (101.8ms)
+2024-06-19 23:19:49.175 [INFO]: Completion request succeeded (656.55ms)
+2024-06-19 23:19:49.177 [INFO]: Generated 1 completion
+2024-06-19 23:19:49.179 [INFO]: provideInlineCompletionItems request succeeded (673.7ms)
+2024-06-19 23:19:50.056 [INFO]: Completion request was cancelled by token (109.41ms)
+2024-06-19 23:19:50.790 [INFO]: Completion request was cancelled by token (673.44ms)
+2024-06-19 23:19:51.058 [INFO]: Completion request was cancelled by token (208.25ms)
+2024-06-19 23:19:51.125 [INFO]: [Language Server (stderr)]:
+E0619 23:19:51.125141  6204 unleash_wrapper.go:58] Error parsing autocomplete model variant: unknown model name MODEL_12471: model not found
+2024-06-19 23:19:51.225 [INFO]: Completion request was cancelled by token (105.27ms)
+2024-06-19 23:19:51.973 [INFO]: Completion request was cancelled by token (688.21ms)
+2024-06-19 23:19:52.293 [INFO]: Completion request was cancelled by token (259.66ms)
+2024-06-19 23:19:52.533 [INFO]: Completion request was cancelled by token (168.97ms)
+2024-06-19 23:19:52.766 [INFO]: Completion request was cancelled by token (172.91ms)
+2024-06-19 23:19:53.029 [INFO]: Completion request was cancelled by token (201.95ms)
+2024-06-19 23:19:53.341 [INFO]: Completion request was cancelled by token (253.02ms)
+2024-06-19 23:19:53.405 [INFO]: [Language Server (stderr)]:
+E0619 23:19:53.405088  6204 unleash_wrapper.go:58] Error parsing autocomplete model variant: unknown model name MODEL_12471: model not found
+2024-06-19 23:19:53.496 [INFO]: Completion request was cancelled by token (96.98ms)
+2024-06-19 23:19:54.038 [INFO]: Completion request succeeded (478.02ms)
+2024-06-19 23:19:54.040 [INFO]: No completions were generated
+2024-06-19 23:19:54.041 [INFO]: provideInlineCompletionItems request succeeded (492.93ms)
+2024-06-19 23:20:24.165 [INFO]: [Language Server (stderr)]:
+E0619 23:20:24.162417  6204 api_server_client.go:182] Ping error: unavailable: read tcp 10.20.101.45:56746->35.223.238.178:443: read: connection reset by peer
+2024-06-19 23:21:36.356 [INFO]: [Language Server (stderr)]:
+E0619 23:21:36.355795  6204 embedding.go:34] GetEmbeddings error: unavailable: EOF
+2024-06-19 23:21:36.590 [INFO]: [Language Server (stderr)]:
+E0619 23:21:36.589955  6204 embedding.go:34] GetEmbeddings error: unavailable: EOF
+2024-06-19 23:22:34.783 [INFO]: Completion request succeeded (757.08ms)
+2024-06-19 23:22:34.786 [INFO]: Generated 2 completions
+2024-06-19 23:22:34.788 [INFO]: provideInlineCompletionItems request succeeded (767.46ms)
+2024-06-19 23:24:42.738 [INFO]: Completion request was cancelled by token (33.88ms)
+2024-06-19 23:24:44.012 [INFO]: Completion request succeeded (1216.78ms)
+2024-06-19 23:24:44.014 [INFO]: Generated 4 completions
+2024-06-19 23:24:44.016 [INFO]: provideInlineCompletionItems request succeeded (1230.24ms)
+2024-06-19 23:24:44.564 [INFO]: Completion request succeeded (460.38ms)
+2024-06-19 23:24:44.565 [INFO]: No completions were generated
+2024-06-19 23:24:44.565 [INFO]: provideInlineCompletionItems request succeeded (467.02ms)
+2024-06-19 23:30:15.069 [INFO]: [Language Server (stderr)]:
+I0619 23:30:15.067100  6204 client_manager.go:248] Pruning inactive client for {954de0ea-e4a4-4ec8-a9d5-03484e212251 2044410b-b40b-4138-af42-11baa7711d25}
+2024-06-19 23:37:29.975 [INFO]: Completion request was cancelled by token (537.55ms)
+2024-06-19 23:37:30.868 [INFO]: Completion request was cancelled by token (423.32ms)
+2024-06-19 23:37:31.980 [INFO]: Completion request succeeded (1057.72ms)
+2024-06-19 23:37:31.981 [INFO]: No completions were generated
+2024-06-19 23:37:31.981 [INFO]: provideInlineCompletionItems request succeeded (1064.04ms)
+2024-06-19 23:39:14.065 [INFO]: Completion request succeeded (463.68ms)
+2024-06-19 23:39:14.066 [INFO]: No completions were generated
+2024-06-19 23:39:14.066 [INFO]: provideInlineCompletionItems request succeeded (468.32ms)
+2024-06-19 23:44:15.067 [INFO]: [Language Server (stderr)]:
+I0619 23:44:15.066781  6204 client_manager.go:248] Pruning inactive client for {954de0ea-e4a4-4ec8-a9d5-03484e212251 2044410b-b40b-4138-af42-11baa7711d25}
+2024-06-19 23:44:34.449 [INFO]: Completion request was cancelled by token (689.75ms)
+2024-06-19 23:46:38.394 [INFO]: Completion request succeeded (450.53ms)
+2024-06-19 23:46:38.395 [INFO]: No completions were generated
+2024-06-19 23:46:38.395 [INFO]: provideInlineCompletionItems request succeeded (460.98ms)
+2024-06-19 23:48:38.677 [INFO]: Completion request succeeded (451.18ms)
+2024-06-19 23:48:38.678 [INFO]: No completions were generated
+2024-06-19 23:48:38.678 [INFO]: provideInlineCompletionItems request succeeded (459.16ms)
+2024-06-19 23:49:57.894 [INFO]: Completion request succeeded (465.14ms)
+2024-06-19 23:49:57.895 [INFO]: No completions were generated
+2024-06-19 23:49:57.895 [INFO]: provideInlineCompletionItems request succeeded (485.01ms)
+2024-06-19 23:50:07.326 [INFO]: Completion request succeeded (478.64ms)
+2024-06-19 23:50:07.327 [INFO]: No completions were generated
+2024-06-19 23:50:07.328 [INFO]: provideInlineCompletionItems request succeeded (494.46ms)
+2024-06-19 23:50:10.487 [INFO]: Completion request was cancelled by token (308.6ms)
+2024-06-19 23:50:10.656 [INFO]: Completion request was cancelled by token (108.32ms)
+2024-06-19 23:50:10.847 [INFO]: Completion request was cancelled by token (131.22ms)
+2024-06-19 23:50:11.791 [INFO]: Completion request succeeded (879.13ms)
+2024-06-19 23:50:11.792 [INFO]: No completions were generated
+2024-06-19 23:50:11.792 [INFO]: provideInlineCompletionItems request succeeded (896.06ms)
+2024-06-19 23:51:43.103 [INFO]: Completion request succeeded (449.87ms)
+2024-06-19 23:51:43.104 [INFO]: No completions were generated
+2024-06-19 23:51:43.104 [INFO]: provideInlineCompletionItems request succeeded (466.39ms)
+2024-06-19 23:53:24.056 [INFO]: [Language Server (stderr)]:
+E0619 23:53:24.056027  6204 unleash_wrapper.go:120] Error parsing supercomplete model variant: experiment key USE_SUPERCOMPLETE_MODEL does not have variant payload
+2024-06-19 23:53:24.844 [INFO]: Completion request succeeded (816.12ms)
+2024-06-19 23:53:24.846 [INFO]: Generated 1 completion
+2024-06-19 23:53:24.847 [INFO]: provideInlineCompletionItems request succeeded (835.31ms)
+2024-06-19 23:53:27.878 [INFO]: [Language Server (stderr)]:
+E0619 23:53:27.878048  6204 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: skipping file refresh due to debounce
+2024-06-19 23:53:27.881 [ERROR]: [unknown] skipping file refresh due to debounce
+2024-06-19 23:53:38.477 [INFO]: [Language Server (stderr)]:
+E0619 23:53:38.476468  6204 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: skipping file refresh due to debounce
+2024-06-19 23:53:38.478 [ERROR]: [unknown] skipping file refresh due to debounce
+2024-06-19 23:53:45.546 [INFO]: Completion request succeeded (617.7ms)
+2024-06-19 23:53:45.547 [INFO]: No completions were generated
+2024-06-19 23:53:45.547 [INFO]: provideInlineCompletionItems request succeeded (635.02ms)
+2024-06-19 23:54:21.221 [INFO]: [Language Server (stderr)]:
+E0619 23:54:21.220318  6204 interceptor.go:40] /exa.language_server_pb.LanguageServerService/RefreshContextForIdeAction: skipping file refresh due to debounce
+2024-06-19 23:54:21.222 [ERROR]: [unknown] skipping file refresh due to debounce

@@ -1,0 +1,30 @@
+2024/06/19-16:15:07.250 7da8 Reusing MANIFEST /home/shuvam/.config/LM Studio/Local Storage/leveldb/MANIFEST-000001
+2024/06/19-16:15:07.255 7da8 Recovering log #24
+2024/06/19-16:15:07.255 7da8 Reusing old log /home/shuvam/.config/LM Studio/Local Storage/leveldb/000024.log 
+2024/06/19-16:17:08.846 7da8 Level-0 table #29: started
+2024/06/19-16:17:08.851 7da8 Level-0 table #29: 118676 bytes OK
+2024/06/19-16:17:08.853 7da8 Delete type=0 #24
+2024/06/19-16:18:08.845 8547 Level-0 table #31: started
+2024/06/19-16:18:08.849 8547 Level-0 table #31: 93161 bytes OK
+2024/06/19-16:18:08.850 8547 Delete type=0 #28
+2024/06/19-16:19:23.157 87b5 Level-0 table #33: started
+2024/06/19-16:19:23.159 87b5 Level-0 table #33: 97833 bytes OK
+2024/06/19-16:19:23.161 87b5 Delete type=0 #30
+2024/06/19-16:20:08.842 8913 Level-0 table #35: started
+2024/06/19-16:20:08.846 8913 Level-0 table #35: 94916 bytes OK
+2024/06/19-16:20:08.848 8913 Delete type=0 #32
+2024/06/19-16:20:08.848 8913 Compacting 4@0 + 1@1 files
+2024/06/19-16:20:08.856 8913 Generated table #36@0: 8 keys, 97412 bytes
+2024/06/19-16:20:08.856 8913 Compacted 4@0 + 1@1 files => 97412 bytes
+2024/06/19-16:20:08.857 8913 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/19-16:20:08.857 8913 Delete type=2 #26
+2024/06/19-16:20:08.857 8913 Delete type=2 #29
+2024/06/19-16:20:08.857 8913 Delete type=2 #31
+2024/06/19-16:20:08.857 8913 Delete type=2 #33
+2024/06/19-16:20:08.857 8913 Delete type=2 #35
+2024/06/19-16:35:54.433 7da7 Level-0 table #38: started
+2024/06/19-16:35:54.441 7da7 Level-0 table #38: 106527 bytes OK
+2024/06/19-16:35:54.443 7da7 Delete type=0 #34
+2024/06/19-16:36:25.890 a767 Level-0 table #40: started
+2024/06/19-16:36:25.903 a767 Level-0 table #40: 186049 bytes OK
+2024/06/19-16:36:25.906 a767 Delete type=0 #37

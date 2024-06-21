@@ -1,0 +1,15 @@
+2024-06-20 19:37:55.837 [info] Telemetry level is off
+2024-06-20 19:37:55.837 [info] Experiments are disabled, only manually opted experiments are active.
+2024-06-20 19:37:55.837 [info] Default formatter is set to null for workspace /home/shuvam/Information_Retrieval
+2024-06-20 19:37:55.837 [info] Test server listening.
+2024-06-20 19:37:55.837 [info] > conda info --json
+2024-06-20 19:37:55.837 [info] Python interpreter path: /bin/python
+2024-06-20 19:37:55.841 [info] > ~/.conda/bin/conda info --json
+2024-06-20 19:37:55.848 [info] > pyenv which python
+2024-06-20 19:37:55.848 [info] cwd: .
+2024-06-20 19:37:55.868 [info] > ./LLMS/text-generation-webui-main/installer_files/conda/bin/conda info --json
+2024-06-20 19:37:55.873 [info] > ./LLMS/text-generation-webui-main/installer_files/env/bin/conda info --json
+2024-06-20 19:37:56.993 [info] Starting Jedi language server for Information_Retrieval.
+2024-06-20 19:40:49.110 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/custom_indexing.py
+2024-06-20 19:40:53.601 [info] Discover tests for workspace name: Information_Retrieval - uri: /home/shuvam/Information_Retrieval/reults_bm25/Python_code/custom_indexing.py
+2024-06-20 19:40:55.726 [info] Send text to terminal: /bin/python /home/shuvam/Information_Retrieval/reults_bm25/Python_code/custom_indexing.py

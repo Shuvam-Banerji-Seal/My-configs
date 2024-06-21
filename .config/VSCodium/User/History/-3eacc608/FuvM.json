@@ -1,0 +1,8 @@
+{
+    "notebook.experimental.useMarkdownRenderer": true,
+    "files.autoSave": "afterDelay",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.inheritEnv": false,
+    "python.createEnvironment.trigger": "off",
+    "workbench.editorLargeFileConfirmation": 512
+}

@@ -1,0 +1,38 @@
+<svg id="eHoIMQfuUXR1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 81 82"
+  shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <filter id="eHoIMQfuUXR7-filter" x="-150%" width="400%" y="-150%" height="400%">
+      <feGaussianBlur id="eHoIMQfuUXR7-filter-drop-shadow-0-blur" in="SourceAlpha" stdDeviation="2,2" />
+      <feOffset id="eHoIMQfuUXR7-filter-drop-shadow-0-offset" dx="0" dy="0" result="tmp" />
+      <feFlood id="eHoIMQfuUXR7-filter-drop-shadow-0-flood" flood-color="rgba(0,0,0,0.2)" />
+      <feComposite id="eHoIMQfuUXR7-filter-drop-shadow-0-composite" operator="in" in2="tmp" />
+      <feMerge id="eHoIMQfuUXR7-filter-drop-shadow-0-merge" result="result">
+        <feMergeNode id="eHoIMQfuUXR7-filter-drop-shadow-0-merge-node-1" />
+        <feMergeNode id="eHoIMQfuUXR7-filter-drop-shadow-0-merge-node-2" in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="eHoIMQfuUXR10-filter" x="-150%" width="400%" y="-150%" height="400%">
+      <feGaussianBlur id="eHoIMQfuUXR10-filter-drop-shadow-0-blur" in="SourceAlpha" stdDeviation="1,1" />
+      <feOffset id="eHoIMQfuUXR10-filter-drop-shadow-0-offset" dx="0" dy="0" result="tmp" />
+      <feFlood id="eHoIMQfuUXR10-filter-drop-shadow-0-flood" flood-color="rgba(0,0,0,0.25)" />
+      <feComposite id="eHoIMQfuUXR10-filter-drop-shadow-0-composite" operator="in" in2="tmp" />
+      <feMerge id="eHoIMQfuUXR10-filter-drop-shadow-0-merge" result="result">
+        <feMergeNode id="eHoIMQfuUXR10-filter-drop-shadow-0-merge-node-1" />
+        <feMergeNode id="eHoIMQfuUXR10-filter-drop-shadow-0-merge-node-2" in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#eHoIMQfuUXR7-filter)">
+    <path
+      d="M44.7527,47.753L59.1794,36.289c.6553-.5207,1.6221-.0541,1.6221.7829v23.7617c0,.853-.9995,1.3144-1.6487.761L44.7261,49.2969c-.479-.4083-.4662-1.1524.0266-1.5439Z"
+      transform="matrix(-.999997 0 0 1 80.801317 0.171161)" fill="#fff" />
+    <path
+      d="M44.7527,47.753L59.1794,36.289c.6553-.5207,1.6221-.0541,1.6221.7829v23.7617c0,.853-.9995,1.3144-1.6487.761L44.7261,49.2969c-.479-.4083-.4662-1.1524.0266-1.5439Z"
+      transform="translate(.1985 0)" fill="#fff" />
+  </g>
+  <g transform="matrix(.990219 0 0 1 0.393315 0)" filter="url(#eHoIMQfuUXR10-filter)">
+    <path
+      d="M42.8184,44.9914L60.2687,60.2438c.6953.6077.2656,1.7527-.6579,1.7529l-38.7967.0098c-.9407.0003-1.3613-1.1804-.6324-1.7749L38.9479,44.9254c1.1337-.9247,2.769-.8968,3.8705.066Z"
+      transform="matrix(1.00978 0 0 1-.205214 0)" fill="#fff" />
+  </g>
+</svg>

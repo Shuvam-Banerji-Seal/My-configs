@@ -1,0 +1,36 @@
+2024-06-20 19:09:48.087 [error] Error: The file is not displayed in the text editor because it is very large (1.28GB).
+    at C (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:137:775)
+    at J (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:802:65994)
+    at P (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:802:59663)
+    at N.handleSetInputError (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2193:41072)
+    at N.setInput (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2193:39981)
+    at async r.doSetInput (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:37051)
+    at async r.doOpenEditor (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:34782)
+    at async r.openEditor (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:33518)
+    at async vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:37359
+2024-06-20 19:09:48.177 [info] Started local extension host with pid 29039.
+2024-06-20 19:09:48.834 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-html
+2024-06-20 19:09:48.834 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-txt
+2024-06-20 19:09:51.026 [info] [perf] Render performance baseline is 33ms
+2024-06-20 19:12:23.977 [error] Error: The file is not displayed in the text editor because it is very large (1.28GB).
+    at C (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:137:775)
+    at J (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:802:65994)
+    at P (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:802:59663)
+    at N.handleSetInputError (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2193:41072)
+    at N.setInput (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2193:39981)
+    at async r.doSetInput (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:37051)
+    at async r.doOpenEditor (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:34782)
+    at async r.openEditor (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:33518)
+    at async vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:37359
+    at async u.value (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2372:60884)
+2024-06-20 19:12:33.771 [error] Error: The file is not displayed in the text editor because it is very large (1.28GB).
+    at C (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:137:775)
+    at J (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:802:65994)
+    at P (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:802:59663)
+    at N.handleSetInputError (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2193:41072)
+    at N.setInput (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2193:39981)
+    at async r.doSetInput (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:37051)
+    at async r.doOpenEditor (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:34782)
+    at async r.openEditor (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:33518)
+    at async vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:37359
+    at async u.value (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2372:60884)
