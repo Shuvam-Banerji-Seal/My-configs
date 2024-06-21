@@ -1,9 +1,0 @@
-2024/06/20-14:41:34.070 bb3 Reusing MANIFEST /home/shuvam/.config/opera/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/06/20-14:41:34.071 bb3 Recovering log #37
-2024/06/20-14:41:34.071 bb3 Reusing old log /home/shuvam/.config/opera/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000037.log 
-2024/06/20-14:41:37.574 bb3 Compacting 1@1 + 1@2 files
-2024/06/20-14:41:37.583 bb3 Generated table #40@1: 59 keys, 25474 bytes
-2024/06/20-14:41:37.583 bb3 Compacted 1@1 + 1@2 files => 25474 bytes
-2024/06/20-14:41:37.583 bb3 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/06/20-14:41:37.583 bb3 Delete type=2 #36
-2024/06/20-14:41:37.584 bb3 Delete type=2 #38

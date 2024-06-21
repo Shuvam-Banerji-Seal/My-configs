@@ -1,5 +1,0 @@
-2024/06/07-23:40:43.132 ed2 Reusing MANIFEST /home/shuvam/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/MANIFEST-000001
-2024/06/07-23:40:43.132 ed2 Recovering log #42
-2024/06/07-23:40:43.132 ed2 Reusing old log /home/shuvam/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/000042.log 
-2024/06/07-23:40:43.132 ed2 Delete type=2 #40
-2024/06/07-23:40:43.139 ed4 Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)

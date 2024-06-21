@@ -1,5 +1,0 @@
-2024-06-20 18:57:21.671 [info] update#setState disabled
-2024-06-20 18:57:21.674 [info] update#ctor - updates are disabled as there is no update URL
-2024-06-20 18:57:36.307 [info] Extension host with pid 24111 exited with code: 0, signal: unknown.
-2024-06-20 19:07:01.611 [error] CodeWindow: detected unresponsive
-2024-06-20 19:07:42.768 [error] CodeWindow: detected unresponsive

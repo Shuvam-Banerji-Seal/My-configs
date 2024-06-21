@@ -1,8 +1,0 @@
-2024-06-20 19:11:17.179 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "8"
-
-2024-06-20 19:13:16.796 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "57"
-
-2024-06-20 19:17:12.928 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "83"
-
-2024-06-20 19:20:02.879 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "95"
-

@@ -1,4 +1,0 @@
-2024-06-20 16:29:46.497 [info] Started local extension host with pid 55291.
-2024-06-20 16:29:47.203 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-html
-2024-06-20 16:29:47.203 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-txt
-2024-06-20 16:29:49.291 [info] [perf] Render performance baseline is 25ms

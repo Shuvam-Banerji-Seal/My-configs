@@ -1,6 +1,0 @@
-2024/06/03-22:55:49.386 4291 Reusing MANIFEST /home/shuvam/.config/Slack/Local Storage/leveldb/MANIFEST-000001
-2024/06/03-22:55:49.386 4291 Recovering log #3
-2024/06/03-22:55:49.386 4291 Reusing old log /home/shuvam/.config/Slack/Local Storage/leveldb/000003.log 
-2024/06/03-23:02:50.045 4291 Level-0 table #5: started
-2024/06/03-23:02:50.223 4291 Level-0 table #5: 17222 bytes OK
-2024/06/03-23:02:50.225 4291 Delete type=0 #3

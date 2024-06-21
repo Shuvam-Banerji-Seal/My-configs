@@ -1,6 +1,0 @@
-2024/06/08-00:49:27.389 ec7 Creating DB /home/shuvam/.config/opera/Default/WebStorage/11/IndexedDB/indexeddb.leveldb since it was missing.
-2024/06/08-00:49:27.389 ec7 Reusing MANIFEST /home/shuvam/.config/opera/Default/WebStorage/11/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/06/08-00:49:35.873 ec4 Level-0 table #5: started
-2024/06/08-00:49:35.874 ec4 Level-0 table #5: 868 bytes OK
-2024/06/08-00:49:35.874 ec4 Delete type=0 #3
-2024/06/08-00:49:35.874 ec4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

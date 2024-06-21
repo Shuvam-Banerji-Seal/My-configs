@@ -1,6 +1,0 @@
-2024/06/21-16:07:54.355 22693 Reusing MANIFEST /home/shuvam/.config/opera/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/06/21-16:07:54.356 22693 Recovering log #37
-2024/06/21-16:07:54.377 22693 Reusing old log /home/shuvam/.config/opera/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000037.log 
-2024/06/21-16:08:15.051 225b2 Level-0 table #43: started
-2024/06/21-16:08:15.066 225b2 Level-0 table #43: 2732665 bytes OK
-2024/06/21-16:08:15.068 225b2 Delete type=0 #37

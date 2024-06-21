@@ -1,5 +1,0 @@
-{
-    "notebook.experimental.useMarkdownRenderer": true,
-    "files.autoSave": "afterDelay",
-    "workbench.startupEditor": "none"
-}

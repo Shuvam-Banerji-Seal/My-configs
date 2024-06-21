@@ -1,6 +1,0 @@
-2024/06/18-19:09:38.221 10f41 Creating DB /home/shuvam/.config/opera/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb since it was missing.
-2024/06/18-19:09:38.221 10f41 Reusing MANIFEST /home/shuvam/.config/opera/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/06/18-19:09:47.698 10f43 Level-0 table #5: started
-2024/06/18-19:09:47.699 10f43 Level-0 table #5: 342436 bytes OK
-2024/06/18-19:09:47.699 10f43 Delete type=0 #3
-2024/06/18-19:09:47.700 10f43 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

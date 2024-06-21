@@ -1,7 +1,0 @@
-2024-06-20 18:33:32.937 [info] update#setState disabled
-2024-06-20 18:33:32.939 [info] update#ctor - updates are disabled as there is no update URL
-2024-06-20 18:56:01.812 [error] CodeWindow: detected unresponsive
-2024-06-20 18:56:30.953 [warning] No ptyHost heartbeat after 6 seconds
-2024-06-20 18:56:57.308 [warning] [storage main] detected slow close() operation: Time: 26747ms, DB size: 274432b, Large Keys: terminal.history.entries.commands:110041, iconThemeData:90376, colorThemeData:14177, ms-python.python:5776, workbench.activity.placeholderViewlets:3603
-2024-06-20 18:56:57.317 [warning] [storage main] detected slow close() operation: Time: 26759ms, DB size: 90112b, Large Keys: memento/workbench.editors.files.textFileEditor:20821, history.entries:6318, ms-toolsai.jupyter:3782, memento/workbench.parts.editor:2658, __$__targetStorageMarker:1958
-2024-06-20 18:56:57.339 [info] Extension host with pid 15575 exited with code: 0, signal: unknown.
